@@ -1,4 +1,3 @@
-
 # Lagos Property Listings: SQL Analysis (MySQL)
 
 A self-directed SQL project that cleans and analyzes a relational property-listings dataset in MySQL 8.0.
@@ -37,8 +36,8 @@ Joins (inner and left), aggregation, `GROUP BY` / `HAVING`, subqueries, CTEs (in
 
 ## How to run
 1. Install MySQL 8.0+ and MySQL Workbench.
-2. Run `property_mysql.sql` to create the `property_practice` database and load the data.
-3. Run `property_sql_solutions.sql` from the top. Part 1 cleans the data, and Part 2 answers the questions.
+2. Run [property_mysql.sql](property_mysql.sql) to create the `property_practice` database and load the data.
+3. Run [property_sql_solutions.sql](property_sql_solutions.sql) from the top. Part 1 cleans the data, and Part 2 answers the questions.
 
 Expected checkpoints: 609 listings before cleaning, 10 distinct areas after, 9 duplicates found, 600 listings after.
 
@@ -51,9 +50,8 @@ Results from this synthetic dataset (not real market data):
 - **Data quality:** Cleaning removed 9 duplicate listings and standardized inconsistent area names; 12 listings have no recorded rent.
 
 ## Files
-- `property_mysql.sql`: creates the database and loads the data
-- `property_sql_solutions.sql`: cleaning steps and all 10 queries
+- [property_mysql.sql](property_mysql.sql): creates the database and loads the data
+- [property_sql_solutions.sql](property_sql_solutions.sql): cleaning steps and all 10 queries
 
 ## Author
 Abigail Abiodun Opeyemi · [LinkedIn](https://www.linkedin.com/in/abigail-abiodun-0205903a7) · [Portfolio](https://opsy-001.github.io/Portfolio)
-
